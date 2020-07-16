@@ -6,6 +6,12 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Monaco:pixelsize=23:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+    "Monaco for Powerline:pixelsize=23:antialias=true:autohint=true",
+	"Twitter Color Emoji:pixelsize=23:antialias=true:autohint=true",
+/*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
+};
 static int borderpx = 2;
 
 /*
